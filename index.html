@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Credencial Estudiantil</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card-container">
+            <!-- FRENTE DE LA CREDENCIAL -->
+            <div class="credential-card" id="front">
+                <div class="card-front">
+                    <div class="header">
+                         <!-- CAMBIE LA FOTOGRAFÍA, AHORA VA EL LOGO DE LAINSTITUCIÓN -->
+                        <img src="ubelogo.jpg" alt="Logo Escuela" class="school-logo">
+                        <h2>Instituto Educativo</h2>
+                        <h3>Excelencia Académica</h3>
+                    </div>
+                     <!-- AHORA HAY UNA FOTOGRAFÍA MÍA -->
+                    <div class="student-photo">
+                        <img src="bec3bac9f9a498acdd36e2d613b9dcd5_0.jpeg" alt="Foto Estudiante">
+                    </div>
+                    
+                    
+                    <div class="student-info">
+                        <div class="info-row">
+                             <!-- CAMBIÉ LOS DATOS A LOS MÍOS -->
+                            <span class="label">Nombre:</span>
+                            <span class="value">Ana Sofia López Ortega</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Grado:</span>
+                            <span class="value">6° Semestre</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Grupo:</span>
+                            <span class="value">A</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Especialidad:</span>
+                            <span class="value">Interpretación y traducción del inglés</span>
+                        </div>
+                    </div>
+                    
+                    <a href="#back" class="flip-btn">Ver datos de respaldo</a>
+                </div>
+            </div>
+
+            <!-- REVERSO DE LA CREDENCIAL -->
+            <div class="credential-card" id="back">
+                <div class="card-back">
+                    <div class="back-header">
+                        <img src="ubelogo.jpg" alt="Logo" class="back-logo">
+                        <h3>Datos de Respaldo</h3>
+                    </div>
+                    
+                    <div class="back-info">
+                        <div class="info-row-back">
+                             <!-- PUSE MIS DATOS -->
+                            <span class="label-back">Dirección:</span>
+                            <span class="value-back">Av. Insurgentes #789, Col. Del Valle, Oax.</span>
+                        </div>
+                        <div class="info-row-back">
+                            <span class="label-back">NSS:</span>
+                            <span class="value-back">9876 5432 1098 7</span>
+                        </div>
+                        <div class="info-row-back">
+                            <span class="label-back">Tipo de Sangre:</span>
+                            <span class="value-back">   O+</span>
+                        </div>
+                        <div class="info-row-back">
+                            <span class="label-back">Tel. Emergencia:</span>
+                            <span class="value-back">311-116-7654</span>
+                        </div>
+                    </div>
+                    
+                  
+                    
+                    <a href="#front" class="flip-btn back-flip-btn">Volver al frente</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
